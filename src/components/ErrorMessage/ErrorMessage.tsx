@@ -1,11 +1,11 @@
-// import css from "./ErrorMessage.module.css";
+import css from "./ErrorMessage.module.css";
 
-// export default function ErrorMessage() {
-//   return (
-//     <>
-//       <div className={css.error-msg}>
+export default function ErrorMessage() {
+  return <p className={css.text}>There was an error, please try again...</p>;
+}
 
-//       </div>
-//     </>
-//   );
-// }
+// ===========================================
+// Повідомлення про помилку ErrorMessage
+// ===========================================
+// Компонент ErrorMessage має рендеритися замість галереї фільмів у випадку помилки HTTP-запиту та створювати DOM-елемент наступної структури:
+// <p className={css.text}>There was an error, please try again...</p>
